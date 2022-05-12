@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Les légendes ne meurt jamais, Nous reviendrons plus fort !</h1>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-image: url('https://wallpaperaccess.com/full/167533.jpg');
+            background-clip: url('https://cdn.discordapp.com/attachments/843901193146728508/974085811303772230/Compilation_Sword_and_Katana_Sounds_Fight_Free.wav');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center center;
+            user-select: none;
+        }
+
+        h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: #ffffff;
+            text-align: center;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <script>
+        window.onload = () => {
+            var audio = new Audio('https://cdn.discordapp.com/attachments/843901193146728508/974085811303772230/Compilation_Sword_and_Katana_Sounds_Fight_Free.wav');
+            audio.loop = true
+            audio.play()
+        }
+    </script>
+
+</body>
+</html>
